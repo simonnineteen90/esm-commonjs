@@ -1,8 +1,9 @@
 // tests/math.test.js
-const assert = require('assert');
-const { multiply, divide } = require('../functions/math');
-const add = require('../functions/add');
-const subtract = require('../functions/subtract');
+import assert from 'assert';
+
+import { multiply, divide } from '../functions/math.js';
+import add from '../functions/add.js';
+import subtract from '../functions/subtract.js';
 
 // Test the 'add' function
 assert.strictEqual(add(1, 2), 3, '1 + 2 should equal 3');

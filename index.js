@@ -1,7 +1,7 @@
 // index.js
-const { multiply, divide } = require('./functions/math');
-const add = require('./functions/add');
-const subtract = require('./functions/subtract');
+import { multiply, divide } from './functions/math.js';
+import add from './functions/add.js';
+import subtract from './functions/subtract.js';
 
 // Get command-line arguments
 const [, , operation, num1, num2] = process.argv;
